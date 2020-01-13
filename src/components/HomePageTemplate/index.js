@@ -27,6 +27,9 @@ const HomePageTemplate = ({
                 <h1 className='title'>
                   {title}
                 </h1>
+                <p>
+                  Voici un petit descriptif du service
+                </p>
               </div>
             </div>
           </div>
