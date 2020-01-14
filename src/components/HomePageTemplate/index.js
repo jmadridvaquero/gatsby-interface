@@ -4,6 +4,7 @@ import Card from '../Card'
 import Testimonials from '../TeamMember'
 import PropTypes from 'prop-types'
 import logo from '../../assets/img/logo.png'
+import teamPhoto from '../../assets/img/Ellipse.png'
 import TeamMember from '../TeamMember'
 
 const HomePageTemplate = ({
@@ -58,11 +59,11 @@ const HomePageTemplate = ({
                   <Card title="Évaluation" description="lorem ipsum whatever" img="."/>
                   <Card title="Un autre service" description="lorem ipsum whatever" img="."/>
                 </div>
-                <h2 className='has-text-weight-semibold is-size-2'>Equipe</h2>
-                <div>
-                  <TeamMember name="Stéphane Guérad" title="Responsable objets perdus" img="." />
-                  <TeamMember name="fbhf" title="hfhf" img="." />
-                  <TeamMember name="fbhf" title="hfhf" img="." />
+                <h2 className='has-text-weight-semibold is-size-2'>Une équipe d'experts à votre disposition</h2>
+                <div className="row">
+                  <TeamMember name="Stéphane Guérad" title="Responsable objets perdus" img={teamPhoto} />
+                  <TeamMember name="fbhf" title="hfhf" img={teamPhoto} />
+                  <TeamMember name="fbhf" title="hfhf" img={teamPhoto} />
                 </div>
               </div>
             </div>

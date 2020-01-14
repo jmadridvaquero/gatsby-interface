@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 const TeamMember = (props) => (
-  <div className="col-6 col-lg-3 cards mr-2 mb-2">     
+  <div className="col-6 col-lg-3 teamMembers mr-2 mb-2">     
   <div className='justify-content-center d-flex'>
     <img src={props.img}/>
   </div>
