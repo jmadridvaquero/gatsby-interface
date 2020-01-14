@@ -1,9 +1,10 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import Card from '../Card'
-import Testimonials from '../Testimonials'
+import Testimonials from '../TeamMember'
 import PropTypes from 'prop-types'
 import logo from '../../assets/img/logo.png'
+import TeamMember from '../TeamMember'
 
 const HomePageTemplate = ({
   title,
@@ -57,8 +58,12 @@ const HomePageTemplate = ({
                   <Card title="Évaluation" description="lorem ipsum whatever" img="."/>
                   <Card title="Un autre service" description="lorem ipsum whatever" img="."/>
                 </div>
-                <h2 className='has-text-weight-semibold is-size-2'>Testimonials</h2>
-                <Testimonials testimonials={testimonials} />
+                <h2 className='has-text-weight-semibold is-size-2'>Equipe</h2>
+                <div>
+                  <TeamMember name="Stéphane Guérad" title="Responsable objets perdus" img="." />
+                  <TeamMember name="fbhf" title="hfhf" img="." />
+                  <TeamMember name="fbhf" title="hfhf" img="." />
+                </div>
               </div>
             </div>
           </div>
