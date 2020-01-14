@@ -1,6 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import Offerings from '../Offerings'
+import Card from '../Offerings'
 import Testimonials from '../Testimonials'
 import PropTypes from 'prop-types'
 
@@ -45,11 +45,15 @@ const HomePageTemplate = ({
               <div className='content'>
                 <div>
                   <h3 className='has-text-weight-semibold is-size-2'>
-                    {heading}
-                  </h3>
-                  <p>{description}</p>
+                    Ce que vous pouvez accomplir avec coop interface
+                  </h3>                 
                 </div>
-                <Offerings gridItems={offerings.blurbs} />
+                <Card title="Etudes, analyses et recherches" description="lorem ipsum whatever" img="."/>
+                <Card title="Stratégies d’organisation" description="lorem ipsum whatever" img="."/>
+                <Card title="Soutien à la gestion humaine" description="lorem ipsum whatever" img="."/>
+                <Card title="Animation et formation" description="lorem ipsum whatever" img="."/>
+                <Card title="Évaluation" description="lorem ipsum whatever" img="."/>
+                <Card title="Un autre service" description="lorem ipsum whatever" img="."/>
                 <h2 className='has-text-weight-semibold is-size-2'>Testimonials</h2>
                 <Testimonials testimonials={testimonials} />
               </div>
