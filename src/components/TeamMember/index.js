@@ -12,7 +12,7 @@ const TeamMember = (props) => (
         </h1>
     </div>
 
-  <div> className='justify-content-center d-flex'>
+  <div className='justify-content-center d-flex'>
     <p className='text-align-center'>
     {props.title}
     </p></div>       
