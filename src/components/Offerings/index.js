@@ -2,18 +2,18 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 const Card = (props) => (
-  <div className="col-6 col-lg-4">     
+  <div className="col-6 col-lg-3 cards mr-2 mb-2">     
       <div className='justify-content-center d-flex'>
         <img src={props.img}/>
       </div>
-        <div>
-          <h1 className='justify-content-center d-flex'>
+        <div className='justify-content-center d-flex'>
+          <h1 className='text-align-center'>
             {props.title}
             </h1>
         </div>
 
       <div className='justify-content-center d-flex'>
-        <p>
+        <p className='text-align-center'>
         {props.description}
         </p><
       /div>       

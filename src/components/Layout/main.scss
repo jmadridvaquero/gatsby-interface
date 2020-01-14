@@ -1,1 +1,11 @@
 @import '~bootstrap/scss/bootstrap';
+
+.cards {
+    border: solid;
+    border-width: 2px;
+    border-color: grey;
+    box-shadow: 2px 5px 13px rgba(0, 30, 87, 0.16);
+    height: 273px;
+    width: 225px;
+    border-radius: 20px;
+}
