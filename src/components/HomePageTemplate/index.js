@@ -1,6 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import Card from '../Offerings'
+import Card from '../Card'
 import Testimonials from '../Testimonials'
 import PropTypes from 'prop-types'
 import logo from '../../assets/img/logo.png'
@@ -25,10 +25,10 @@ const HomePageTemplate = ({
           <div className='columns'>
             <div className='column is-10 is-offset-1'>
               <div className='section'>
-                <h1 className='title'>
+                <h1 className='text-is-black'>
                   {title}
                 </h1>
-                <p>
+                <p className="text-is-black">
                   Voici un petit descriptif du service
                 </p>
               </div>

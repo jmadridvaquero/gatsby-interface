@@ -15,8 +15,7 @@ const NavBar = ({ toggleNavbar, isActive }) => (
     render={data => (
       <nav className='navbar is-fixed-top' aria-label='main navigation'>
         <div className='navbar-brand'>
-          <Link to='/'>
-          
+          <Link to='/'>          
             <img className="navbarLogo" src={logo}/>
           </Link>
           <button
