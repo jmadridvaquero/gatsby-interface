@@ -3,6 +3,7 @@ import Helmet from 'react-helmet'
 import Card from '../Offerings'
 import Testimonials from '../Testimonials'
 import PropTypes from 'prop-types'
+import logo from '../../assets/img/logo.png'
 
 const HomePageTemplate = ({
   title,
