@@ -48,12 +48,14 @@ const HomePageTemplate = ({
                     Ce que vous pouvez accomplir avec coop interface
                   </h3>                 
                 </div>
-                <Card title="Etudes, analyses et recherches" description="lorem ipsum whatever" img="."/>
-                <Card title="Stratégies d’organisation" description="lorem ipsum whatever" img="."/>
-                <Card title="Soutien à la gestion humaine" description="lorem ipsum whatever" img="."/>
-                <Card title="Animation et formation" description="lorem ipsum whatever" img="."/>
-                <Card title="Évaluation" description="lorem ipsum whatever" img="."/>
-                <Card title="Un autre service" description="lorem ipsum whatever" img="."/>
+                <div className="row">
+                  <Card title="Etudes, analyses et recherches" description="lorem ipsum whatever" img="."/>
+                  <Card title="Stratégies d’organisation" description="lorem ipsum whatever" img="."/>
+                  <Card title="Soutien à la gestion humaine" description="lorem ipsum whatever" img="."/>
+                  <Card title="Animation et formation" description="lorem ipsum whatever" img="."/>
+                  <Card title="Évaluation" description="lorem ipsum whatever" img="."/>
+                  <Card title="Un autre service" description="lorem ipsum whatever" img="."/>
+                </div>
                 <h2 className='has-text-weight-semibold is-size-2'>Testimonials</h2>
                 <Testimonials testimonials={testimonials} />
               </div>
