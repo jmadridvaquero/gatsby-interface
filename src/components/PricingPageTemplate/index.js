@@ -21,8 +21,11 @@ const PricingPageTemplate = ({
             <div className='column is-10 is-offset-1'>
               <div className='section'>
                 <h1 className='title'>
-                  {title}
+                  Animation et formation
                 </h1>
+                <p>Voici un petit desciptif de l'animation et de la formation</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Venenatis lectus magna fringilla urna porttitor rhoncus dolor. Elit eget gravida cum sociis natoque penatibus. Convallis tellus id interdum velit. Sollicitudin tempor id eu nisl nunc. Placerat vestibulum lectus mauris ultrices eros in cursus turpis. Nulla porttitor massa id neque aliquam vestibulum morbi blandit. In dictum non consectetur a erat nam at lectus. Quam nulla porttitor massa id neque aliquam vestibulum morbi blandit. Odio aenean sed adipiscing diam donec adipiscing tristique risus nec.</p>
+              <button className="btn btn-primary">En savoir plus</button>
               </div>
             </div>
           </div>

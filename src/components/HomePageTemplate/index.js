@@ -59,7 +59,17 @@ const HomePageTemplate = ({
                   <Card title="Évaluation" description="lorem ipsum whatever" img="."/>
                   <Card title="Un autre service" description="lorem ipsum whatever" img="."/>
                 </div>
-                <h2 className='has-text-weight-semibold is-size-2'>Une équipe d'experts à votre disposition</h2>
+                <h3 className='has-text-weight-semibold is-size-2'>Plus de 100 clients nous ont fait confiance</h3>
+                <div className="row w-100">
+                  <div className="col-4"><img src={teamPhoto}/></div>
+                  <div className="col-4"><img src={teamPhoto}/></div>
+                  <div className="col-4"><img src={teamPhoto}/></div>
+                  <div className="col-4"><img src={teamPhoto}/></div>
+                  <div className="col-4"><img src={teamPhoto}/></div>
+                  <div className="col-4"><img src={teamPhoto}/></div>
+
+                </div>
+                <h3 className='has-text-weight-semibold is-size-2'>Une équipe d'experts à votre disposition</h3>
                 <div className="row">
                   <TeamMember name="Stéphane Guérad" title="Responsable objets perdus" img={teamPhoto} />
                   <TeamMember name="fbhf" title="hfhf" img={teamPhoto} />
