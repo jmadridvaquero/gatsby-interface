@@ -1,40 +1,20 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from 'react';
+import Carousel from 'nuka-carousel';
 
-const Pricing = ({ data }) => (
-  <div className='columns'>
-    {data.map(price => (
-      <div key={price.plan} className='column' style={{ border: '1px solid #eaecee' }}>
-        <section className='section'>
-          <h4 className='has-text-centered has-text-weight-semibold'>
-            {price.plan}
-          </h4>
-          <h2 className='is-size-1 has-text-weight-bold has-text-primary has-text-centered'>
-                        ${price.price}
-          </h2>
-          <p className='has-text-weight-semibold'>{price.description}</p>
-          <ul>
-            {price.items.map(item => (
-              <li key={item} className='is-size-5'>
-                {item}
-              </li>
-            ))}
-          </ul>
-        </section>
-      </div>
-    ))}
-  </div>
-)
-
-Pricing.propTypes = {
-  data: PropTypes.arrayOf(
-    PropTypes.shape({
-      plan: PropTypes.string,
-      price: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-      description: PropTypes.string,
-      items: PropTypes.array,
-    })
-  ),
+class Pricing extends React.Component {
+  render() {
+    return (
+      <Carousel renderCenterLeftControls={({ previousSlide }) => (
+        <p onClick={previousSlide}>Previous</p>
+      )}>
+        <p>bhsdughkd</p>
+        <img src="https://via.placeholder.com/400/ffffff/c0392b/&text=slide2" />
+        <img src="https://via.placeholder.com/400/ffffff/c0392b/&text=slide3" />
+        <img src="https://via.placeholder.com/400/ffffff/c0392b/&text=slide4" />
+        <img src="https://via.placeholder.com/400/ffffff/c0392b/&text=slide5" />
+        <img src="https://via.placeholder.com/400/ffffff/c0392b/&text=slide6" />
+      </Carousel>
+    );
+  }
 }
-
 export default Pricing
