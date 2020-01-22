@@ -1,11 +1,13 @@
 import React from 'react';
 import Carousel from 'nuka-carousel';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faChevronLeft } from '@fortawesome/free-solid-svg-icons'
 
 class Pricing extends React.Component {
   render() {
     return (
       <Carousel renderCenterLeftControls={({ previousSlide }) => (
-        <p onClick={previousSlide}>Previous</p>
+        <FontAwesomeIcon icon={faChevronLeft} onClick={previousSlide}/>
       )}>
         <p>bhsdughkd</p>
         <img src="https://via.placeholder.com/400/ffffff/c0392b/&text=slide2" />
