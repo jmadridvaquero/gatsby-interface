@@ -6,6 +6,8 @@ import PropTypes from 'prop-types'
 import logo from '../../assets/img/logo.png'
 import teamPhoto from '../../assets/img/Ellipse.png'
 import TeamMember from '../TeamMember'
+import Pricing from '../Pricing'
+
 
 const HomePageTemplate = ({
   title,
@@ -75,6 +77,7 @@ const HomePageTemplate = ({
                   <TeamMember name="fbhf" title="hfhf" img={teamPhoto} />
                   <TeamMember name="fbhf" title="hfhf" img={teamPhoto} />
                 </div>
+                <Pricing/>
               </div>
             </div>
           </div>
