@@ -69,6 +69,7 @@ const ContactForm = () => {
           </div>
           {touched.message && errors.message && <small className='has-text-danger'>{errors.message}</small>}
         </div>
+        
 
         <div className='field is-grouped is-pulled-right'>
           <div className='control'>
