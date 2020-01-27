@@ -6,8 +6,8 @@ import PropTypes from 'prop-types'
 const TeamMember = (props) => {
   
   return(
-    <Link to="/blog">
-      <div className="col-6 col-lg-3 teamMembers mr-2 mb-2">     
+   
+      <Link to="/blog" className="col-6 col-lg-3 teamMembers mr-2 mb-2">     
       <div className='justify-content-center d-flex'>
         <img src={props.img}/>
       </div>
@@ -21,8 +21,8 @@ const TeamMember = (props) => {
         <p className='text-align-center'>
         {props.title}
         </p></div>       
-    </div>    
-    </Link>
+    </Link>    
+    
   )
 }
 
