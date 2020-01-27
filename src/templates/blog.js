@@ -60,12 +60,13 @@ export default class BlogPage extends Component {
             </div>
           </div>
         </section>
-        <section className='section'>        
-            <img src={"dkd"}/>
-            <p>vnkfsgbnsrlonsrg</p>
-            <p>vnkfsgbnsrlonsrgskjlgosrhogpirjgporsjgpjsjerg</p>
+        <section className='section'> 
+            {console.log(this.props)}
+            <img src={this.props.location.state.img}/>
+            <p>{this.props.location.state.name}</p>
+            <p>{this.props.location.state.title}</p>
             <h2>Expertise : </h2>
-            <p>dnsdngsiongoisnglo</p>
+            <p>fjfjfnfhjfhj</p>
             <button className="btn btn-primary">Contact me</button>
         </section>
       </Layout>
