@@ -60,14 +60,13 @@ export default class BlogPage extends Component {
             </div>
           </div>
         </section>
-        <section className='section'>
-          <PostCard posts={group} />
-          <section className='section'>
-            <div className='buttons is-centered'>
-              <PaginationLink test={first} url={previousUrl} text='Previous Page' />
-              <PaginationLink test={last} url={nextUrl} text='Next Page' />
-            </div>
-          </section>
+        <section className='section'>        
+            <img src={"dkd"}/>
+            <p>vnkfsgbnsrlonsrg</p>
+            <p>vnkfsgbnsrlonsrgskjlgosrhogpirjgporsjgpjsjerg</p>
+            <h2>Expertise : </h2>
+            <p>dnsdngsiongoisnglo</p>
+            <button className="btn btn-primary">Contact me</button>
         </section>
       </Layout>
     )
