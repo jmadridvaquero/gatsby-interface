@@ -63,8 +63,8 @@ export default class BlogPage extends Component {
         <section className='section'> 
             {console.log(this.props)}
             <img src={this.props.location.state ? this.props.location.state.img : null}/>
-            <p>{this.props.location.state.name}</p>
-            <p>{this.props.location.state.title}</p>
+            <p>{this.props.location.state ? this.props.location.state.name : null}</p>
+            <p>{this.props.location.state ? this.props.location.state.title : null}</p>
             <h2>Expertise : </h2>
             <p>fjfjfnfhjfhj</p>
             <button className="btn btn-primary">Contact me</button>
