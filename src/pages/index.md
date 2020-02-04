@@ -1,6 +1,6 @@
 ---
 templateKey: home-page
-title: Ce que vous pouvez accomplir avec Coop Interface
+title: Une équipe derrière chaque consultant
 heading: Lorem ipsum dolor sit amet
 description: >-
   Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur,
