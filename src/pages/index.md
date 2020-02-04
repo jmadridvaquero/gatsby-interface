@@ -1,7 +1,7 @@
 ---
 templateKey: home-page
 title: Une équipe derrière chaque consultant
-heading: Lorem ipsum dolor sit amet
+heading: weste es el heading
 description: >-
   Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur,
   adipisci velit...
